@@ -1,0 +1,149 @@
+.services {
+    padding: 15px 0px 15px 0px;
+     
+    }
+    .services-header-img{
+      width: 100%;
+        margin:20px 60px 20px 60px;
+        padding-top: 80px;
+    }
+    section {
+        margin:20px 60px 20px 60px;
+    }
+    .introduction {
+        border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+    .introduction h1{
+      font-size: 1.4em;
+    }
+    .services-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+    .row-1, .row-2{
+        display: flex;
+        flex-direction: column;
+       width: 48%;
+    
+    }
+    .service-card {
+      margin: 20px 0px 20px 0px;
+      padding:20px;
+      border: 1px solid #000;
+      background-color:lime;
+      display: flex;
+      flex-direction: column;
+    }
+    .service-card p {
+        padding: 10px 0px 10px 0px;
+        
+    }
+    .btn{
+        background-color: #fff; 
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 5px 40px 5px 40px; 
+        color: #000;
+        text-decoration:none;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+        width: 30%;
+        
+    }
+    .btn:hover {
+        background-color:#000;
+        color: #fff;
+    }
+    .faq-section{
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-between;
+    }
+    .services-info-img {
+        width: 48%;
+    }
+    .faqs {
+        display: flex;
+    
+        flex-direction: column;
+        align-items: space-around;
+        width: 48%;
+     
+    }
+    .faqs p{
+        padding: 10px 0px 10px 0px;
+    }
+    ul{
+        list-style-type: disc;
+        margin: 20px 0px 20px 20px;
+    }
+    ul li {
+        padding: 15px 0px 15px 0px;
+    }
+    footer {
+        text-align: center;
+    }
+    /*Media Query for 800px*/
+  @media screen and (max-width: 800px) {
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+    .row-1, .row-2{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+    
+    }
+    .services-header-img{
+        width: 100%;
+          margin:20px 60px 20px 60px;
+          padding-top: 90px;
+      }
+      .faq-section{
+      
+        flex-direction: column;
+       
+    }
+    .faqs{
+        width: 100%;
+    }
+  }
+   /*Media Query for 500px*/
+   @media screen and (max-width: 800px) {
+    .services-header-img{
+        width: 100%;
+          margin:20px 60px 20px 60px;
+       
+      }
+      .services-info-img{
+          width: 100%;
+          align-self: center;
+      }
+      .service-card {
+        
+          text-align: center;
+      }
+      .btn {
+          align-self: center;
+          text-align: center;
+          width: 70%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+        .services-header-img{
+         padding-top: 38vh;
+         width: 90%;
+          }
+          .fixed-nav {
+            padding-bottom:0px;
+            }
+    }
