@@ -87,3 +87,63 @@
     footer {
         text-align: center;
     }
+    /*Media Query for 800px*/
+  @media screen and (max-width: 800px) {
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+        padding-bottom: 30px;
+    }
+    .row-1, .row-2{
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+    
+    }
+    .services-header-img{
+        width: 100%;
+          margin:20px 60px 20px 60px;
+          padding-top: 90px;
+      }
+      .faq-section{
+      
+        flex-direction: column;
+       
+    }
+    .faqs{
+        width: 100%;
+    }
+  }
+   /*Media Query for 500px*/
+   @media screen and (max-width: 800px) {
+    .services-header-img{
+        width: 100%;
+          margin:20px 60px 20px 60px;
+       
+      }
+      .services-info-img{
+          width: 100%;
+          align-self: center;
+      }
+      .service-card {
+        
+          text-align: center;
+      }
+      .btn {
+          align-self: center;
+          text-align: center;
+          width: 70%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+        .services-header-img{
+         padding-top: 38vh;
+         width: 90%;
+          }
+          .fixed-nav {
+            padding-bottom:0px;
+            }
+    }
